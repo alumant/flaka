@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flaka Restaurant</title>
+    <link rel="Icon" href="fork-and-knife.png">
+    <!-- link AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+     <link rel="stylesheet" type="text/css" href="home_Styling.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+
+<body>
+
+    <nav class="navbar">  
+
+        <div class="logo">
+            <a href="home.html"> 
+                <img src="flaka_logo-removebg-preview.png" alt="Logo"></a>
+            <h2>FLAKA CLOUD <BR> FAMILY RESTUARANT</h2>
+        </div>
+
+        <ul class="menu">  
+            
+            <a href="home.html"> Home </a>  
+
+            <a href="menu.html"> Menu </a> 
+           
+            <a href="about_Flaka.html"> About </a>  
+          
+            <a href="contact_Flaka.html"> Contact </a> 
+            
+            <a href="reviews.html">Reviews</a>
+
+        </ul>  
+      </nav>  
+    
+        <section id="home">
+            
+            <div class="container">
+                <div class="home-page">
+
+                    <div id="icon-container">
+                        <i id="open-iframe-icon" class="fa-regular fa-comments" ></i>
+                    </div>
+
+                    <div id="iframe-container" style="display: none">
+                        <iframe id="my-iframe" width="300" height="450" allow="microphone" src="" frameborder="0" allowfullscreen></iframe>
+                       
+                    </div>
+
+
+                    <div>
+                        <h1 data-aos="fade-up">TASTE LOCATED NOWHERE</h1>
+                    </div>
+                    <div>
+                        <h2 data-aos="fade-up">come dine with us and enjoy our variety food and drinks</h2>
+                    </div>
+                
+                    
+                </div>
+            </div>
+             
+        </section>
+
+        <footer>
+            <ul class="footer-nav">
+                <li>
+                    <i class="fas fa-map-marker-alt"></i> <!-- Icon for address -->
+                    Tsweu St, Mamelodi - SAS <br> Pretoria <br> 0122
+                </li>
+                <li>
+                    <i class="fas fa-envelope"></i> 
+                    flakacloud@info.co.za <br>
+                        <i class="fas fa-phone"></i>
+                        011 475 6543 <br>
+                        <i class="fas fa-phone"></i>
+                         076 638 1455
+                </li>
+                <li>
+                    <i class="fas fa-envelope"></i> 
+                    Subscribe to our newsletter <br> 
+                    <input type="text" placeholder="enter email" >
+                    <button type="submit">Submit</button>
+                </li>
+            </ul>
+        </footer>
+        <script src="myscript.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            delay: 200,
+            duration: 1500,
+            once: false,
+            mirror: false,
+          });
+        </script> 
+</body>
+</html>
